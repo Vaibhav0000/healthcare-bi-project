@@ -66,10 +66,10 @@ healthcare-drug-use-analytics/
 
 ## ▶️ Demo
 
-*Available in `/media/project_demo.mp4`*
+*Available in [Final Video Walk Through](https://drive.google.com/file/d/14JWPkNZdPiaVKG-on70i7fiIJevOviJa/view?usp=drive_link)*
 
 ## 📩 Contact
 
 Vaibhav Nangia
 **Business Data Analyst | PMP-Certified Project Manager | BI Storyteller**
-[LinkedIn](https://www.linkedin.com/in/vaibhavnangia08050805/) | [Email](mailto:your.nangiavaibhav9@gmail.com.com)
+[LinkedIn](https://www.linkedin.com/in/vaibhavnangia08050805/) | [Email](mailto:your.nangiavaibhav9@gmail.com)
