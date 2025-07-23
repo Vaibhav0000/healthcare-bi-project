@@ -19,22 +19,33 @@ This project simulates a real-world public health research initiative. We source
 healthcare-drug-use-analytics/
 ├── README.md
 ├── data/
+│   ├── aggregated_by_hospital.csv
+│   ├── aggregated_by_state.csv
+│   ├── figure_all_drugs_by_demographics.csv
+│   ├── figure_all_drugs_by_urban_rural.csv
+│   ├── figure_benzodiazepines_by_demographics.csv
+│   ├── figure_cannabis_by_demographics.csv
+│   ├── figure_opioids_by_demographics.csv
+│   ├── figure_stimulants_by_demographics.csv
+│   ├── figure_summary_all_settings.csv
+│   ├── full_analysis_data.csv
 │   ├── healthcare_data.csv
-│   └── socioeconomic_data.csv
+│   ├── socioeconomic_data.csv
+│   ├── Hospital_General_Information.csv
+│   └── state_socioeconomic_yearly.csv
 ├── notebooks/
 │   └── drug_use_analysis_colab.ipynb
 ├── dashboards/
 │   └── dashboard_images/
-│       ├── overview.png
-│       ├── trends_by_state.png
-│       ├── demographic_insights.png
-│       └── socioeconomic_impact.png
+│       ├── dashboard 1.png
+│       ├── dashboard 2.png
+│       ├── dashboard 3.png
+│       └── dashboard 4.png
 ├── documentation/
-│   ├── summary_one_pager.pdf
-│   └── full_documentation.pdf
-├── media/
-│   ├── project_demo.mp4
-│   └── preview_carousel.gif
+│   ├── Summary Final.pdf
+│   └── Detailed Report Final.pdf
+│   └── Glossary.pdf
+│   └── PM.pdf
 └── LICENSE
 ```
 
