@@ -34,9 +34,9 @@ Simulating a real-world public health research scenario, this project answers:
 ## 📊 Visual Insights
 
 <p align="center">
-  <img src="dashboards/dashboard_images/dashboard 2.png" width="60%" />
-  <img src="dashboards/dashboard_images/dashboard 3.png" width="60%" />
-  <img src="dashboards/dashboard_images/dashboard 4.png" width="60%" />
+  <img src="dashboard/dashboard images/Dashboard 2.png" width="30%" />
+  <img src="dashboard/dashboard images/Dashboard 3.png" width="30%" />
+  <img src="dashboard/dashboard images/Dashboard 4.png" width="30%" />
 </p>
 
 Explore interactive dashboards showing:
