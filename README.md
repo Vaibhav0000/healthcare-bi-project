@@ -1,23 +1,68 @@
-# healthcare-bi-project
-# Healthcare Drug Use Analytics Platform
+<h1 align="center">💊 Healthcare Drug Use Analytics Platform</h1>
 
-## 🔍 Project Overview
+<p align="center">
+  <em>Data-driven insights into U.S. healthcare drug use patterns, built for strategic public health decision-making.</em>
+</p>
 
-A data-driven investigation into drug use patterns across U.S. healthcare settings (ED, IP, OP) to uncover key demographic, geographic, and socioeconomic insights. Built to support data-backed interventions and resource allocation.
+---
 
-## 🧠 Real-World Scenario
+## 📌 Summary
 
-This project simulates a real-world public health research initiative. We sourced healthcare facility-level drug use data and paired it with U.S. census-based socioeconomic data to analyze:
+A comprehensive analytics project exploring drug use across healthcare settings in the United States — Emergency (ED), Inpatient (IP), and Outpatient (OP). This project merges **hospital-level drug usage data** with **socioeconomic census data** to identify key trends, vulnerable demographics, and geographical hotspots.
 
-* Who is affected most by drug use?
-* Where are the hotspots?
-* What social and economic factors correlate with these trends?
+---
 
-## 📂 Repository Structure
+## 🎯 Real-World Scenario
 
+Simulating a real-world public health research scenario, this project answers:
+
+- 👥 **Who** is most impacted by drug use?
+- 📍 **Where** are the highest-risk regions?
+- 🧬 **What socioeconomic factors** contribute to these trends?
+
+---
+
+## 🚀 Key Outcomes
+
+✔️ Over **60%** of drug-related incidents occur in **Emergency Departments**  
+✔️ **Opioids & Cannabis** are the most reported substances  
+✔️ **Rural counties** and **youth populations** are highly vulnerable  
+✔️ **West Virginia** and **New Mexico** lead in per capita incidents, correlating with low income  
+
+---
+
+## 📊 Visual Insights
+
+<p align="center">
+  <img src="dashboards/dashboard_images/dashboard 2.png" width="60%" />
+  <img src="dashboards/dashboard_images/dashboard 3.png" width="60%" />
+  <img src="dashboards/dashboard_images/dashboard 4.png" width="60%" />
+</p>
+
+Explore interactive dashboards showing:
+- National trends by setting & state  
+- Demographic usage by drug type  
+- Urban vs. rural disparities  
+- Facility-level hotspots
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool          | Purpose                                |
+|---------------|----------------------------------------|
+| `Google Colab`| Data wrangling, validation             |
+| `Python`      | Pandas, NumPy, Matplotlib              |
+| `Tableau`     | Interactive dashboards, storytelling   |
+| `Excel`       | Initial review, calculations           |
+
+---
+
+## 🗂️ Project Structure
 ```
 healthcare-drug-use-analytics/
 ├── README.md
+├── LICENSE
 ├── data/
 │   ├── aggregated_by_hospital.csv
 │   ├── aggregated_by_state.csv
@@ -30,7 +75,6 @@ healthcare-drug-use-analytics/
 │   ├── figure_summary_all_settings.csv
 │   ├── full_analysis_data.csv
 │   ├── healthcare_data.csv
-│   ├── socioeconomic_data.csv
 │   ├── Hospital_General_Information.csv
 │   └── state_socioeconomic_yearly.csv
 ├── notebooks/
@@ -43,44 +87,62 @@ healthcare-drug-use-analytics/
 │       └── dashboard 4.png
 ├── documentation/
 │   ├── Summary Final.pdf
-│   └── Detailed Report Final.pdf
-│   └── Glossary.pdf
+│   ├── Detailed Report Final.pdf
+│   ├── Glossary.pdf
 │   └── PM.pdf
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
-## 🛠️ Tools Used
+---
 
-* **Google Colab**: Data wrangling, transformation, validation
-* **Python**: Pandas, NumPy, Matplotlib
-* **Tableau**: Interactive dashboards and storyboards
-* **Excel**: Initial data review
+## 📈 Dashboards Showcase
 
-## 📊 Key Dashboards & Insights
+- **Dashboard 1**: Drug-related incidents by setting and state  
+- **Dashboard 2**: Demographics & drug types (opioids, cannabis, stimulants, etc.)  
+- **Dashboard 3**: Socioeconomic and rural/urban disparities  
+- **Dashboard 4**: Facility-specific usage concentration
 
-* **Overview Dashboard**: Drug-related visits per setting across the U.S.
-* **Demographic Analysis**: Opioid and cannabis usage disproportionately affecting youth and rural populations
-* **Geographic Trends**: West Virginia & New Mexico as top states per capita; socioeconomic correlation evident
-* **Facility-Level Patterns**: A handful of facilities account for a large share of drug-related visits
-
-## 📈 Validated Insights
-
-1. **Over 60%** of all drug-related incidents occurred in Emergency Departments.
-2. **Opioids and Cannabis** were the top reported drugs.
-3. **Rural counties and youth** showed higher per capita drug-related visits.
-4. **West Virginia and New Mexico** had the highest per capita cases, linked to low median income.
+---
 
 ## 📥 Data Sources
 
-* **Healthcare Dataset**: [U.S. Department of Health and Human Services Open Data Portal](https://healthdata.gov)
-* **Socioeconomic Dataset**: [U.S. Census Bureau - ACS 5-Year Data](https://data.census.gov)
+- **Healthcare Facility Data**: [HealthData.gov – HHS](https://healthdata.gov)
+- **Socioeconomic Indicators**: [U.S. Census Bureau – ACS](https://data.census.gov)
 
-## ▶️ Demo
+---
 
-*Available in [Final Video Walk Through](https://drive.google.com/file/d/14JWPkNZdPiaVKG-on70i7fiIJevOviJa/view?usp=drive_link)*
+## ▶️ Walkthrough Demo
 
-## 📩 Contact
+🎬 [**Final Project Walkthrough Video**](https://drive.google.com/file/d/14JWPkNZdPiaVKG-on70i7fiIJevOviJa/view?usp=drive_link)
 
-Vaibhav Nangia
-**Business Data Analyst | PMP-Certified Project Manager | BI Storyteller**
-[LinkedIn](https://www.linkedin.com/in/vaibhavnangia08050805/) | [Email](mailto:your.nangiavaibhav9@gmail.com)
+> Includes full explanation of methodology, findings, and dashboard tour.
+
+---
+
+## 💼 Role & Contribution
+
+- Led full **data lifecycle**: extraction, transformation, visualization  
+- Applied **business analysis** to define use case & requirements  
+- Integrated **public health** and **data science** methodologies  
+- Delivered **PM deliverables**: WBS, glossary, stakeholder documents
+
+---
+
+## 💬 Contact
+
+**Vaibhav Nangia**  
+👨‍💼 Business Data Analyst | PMP-Certified Project Manager | BI Storyteller  
+🔗 [LinkedIn](https://www.linkedin.com/in/vaibhavnangia08050805/)  
+📧 [Email](mailto:nangiavaibhav9@gmail.com)
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue" />
+  <img src="https://img.shields.io/badge/Tableau-Interactive-blueviolet" />
+  <img src="https://img.shields.io/badge/Colab-Notebooks-orange" />
+</p>
+
+
