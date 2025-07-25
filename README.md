@@ -3,6 +3,10 @@
 <p align="center">
   <em>Data-driven insights into U.S. healthcare drug use patterns, built for strategic public health decision-making.</em>
 </p>
+<p align="center">
+  <img src="dashboard/FinalVideoWalkThrough-ezgif.com-speed.gif" alt="Healthcare Dashboard Demo" width="80%" />
+</p>
+
 
 ---
 
