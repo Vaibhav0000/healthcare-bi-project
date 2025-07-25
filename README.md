@@ -38,9 +38,9 @@ Simulating a real-world public health research scenario, this project answers:
 ## 📊 Visual Insights
 
 <p align="center">
-  <img src="dashboard/dashboard images/Dashboard 2.png" width="30%" />
-  <img src="dashboard/dashboard images/Dashboard 3.png" width="30%" />
-  <img src="dashboard/dashboard images/Dashboard 4.png" width="30%" />
+  <img src="dashboard/FinalVideoWalkThrough-ezgif.com-video-to-gif-converter.gif" width="40%" />
+  <img src="dashboard/FinalVideoWalkThrough-ezgif.com-video-to-gif-converter (1).gif" width="40%" />
+  <img src="dashboard/FinalVideoWalkThrough-ezgif.com-video-to-gif-converter (2).gif" width="40%" />
 </p>
 
 Explore interactive dashboards showing:
@@ -48,6 +48,12 @@ Explore interactive dashboards showing:
 - Demographic usage by drug type  
 - Urban vs. rural disparities  
 - Facility-level hotspots
+
+## 🧠 Behind the Scene
+<p align="center">
+  <img src="dashboard/diagram images/ERD.png" width="30%" />
+  <img src="dashboard/diagram images/Relationship.png" width="60%" />
+</p>
 
 ---
 
