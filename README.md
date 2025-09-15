@@ -101,6 +101,17 @@ healthcare-drug-use-analytics/
 │   ├── Detailed Report Final.pdf
 │   ├── Glossary.pdf
 │   └── PM.pdf
+│   └── Advanced Analytics Extension Report.pdf 🆕
+│   └── Advanced Analytics Summary Report.pdf 🆕
+├── advanced 🆕
+│   ├── screenshots 
+│       ├── Screenshot 1
+│       ├── Screenshot 2
+│       ├── Screenshot 3
+│       ├── Screenshot 4
+│       ├── Screenshot 5
+│       ├── Screenshot 5
+│       ├── Screenshot 7
 ├── LICENSE
 └── README.md
 ```
@@ -124,17 +135,29 @@ To move beyond descriptive Tableau dashboards, I extended the project in **KNIME
 - **K-Means Clustering** – segmented states into:  
   - 🟠 Moderate Burden, Lower-Income  
   - 🔴 High-Income, High-Burden  
-  - 🟢 Stable States with Lower Burden  
-- **Time Series Forecasting (SARIMA)** – projected 12 months of future drug-use cases, revealing seasonal spikes 📈🌤️🚀  
-
+  - 🟢 Stable States with Lower Burden
+<p align="center">
+  <img src="advanced/screenshots/Screenshot (21).png" width="30%" />
+  <img src="advanced/screenshots/Screenshot (24).png" width="30%" />
+</p>
+- **Time Series Forecasting (SARIMA)** – projected 12 months of future drug-use cases, revealing seasonal spikes 
+<p align="center">
+  <img src="advanced/screenshots/Screenshot (35).png" width="30%" />
+  <img src="advanced/screenshots/Screenshot (43).png" width="30%" />
+</p>
 ### 🔹 Scenario Simulation
 - Developed **What-If models** with workflow variables.  
-- Example: *+5% population growth & –10% prescription regulation* → overall cases ↓ but ED reliance ↑ ⚠️  
-
+- Example: *+5% population growth & –10% prescription regulation* → overall cases ↓ but ED reliance ↑
+<p align="center">
+<img src="advanced/screenshots/Screenshot (44).png" width="30%" />
+<img src="advanced/screenshots/Screenshot (45).png" width="30%" />
+</p>
 ### 🔹 Geospatial Mapping
 - Used **KNIME GIS Extensions** to build choropleth maps.  
-- Hotspots aligned with poverty-heavy regions 🗺️🏚️, guiding targeted resource allocation 🎯    
-
+- Hotspots aligned with poverty-heavy regions, guiding targeted resource allocation 🎯    
+<p align="center">
+<img src="advanced/screenshots/Screenshot (46).png" width="40%" />
+</p>
 ---
 
 ## 📥 Data Sources
@@ -158,6 +181,7 @@ To move beyond descriptive Tableau dashboards, I extended the project in **KNIME
 - Applied **business analysis** to define use case & requirements  
 - Integrated **public health** and **data science** methodologies  
 - Delivered **PM deliverables**: WBS, glossary, stakeholder documents
+- 🆕 Extended project with **ML/AI enhancements**: clustering, forecasting, scenario modeling, GIS mapping
 
 ---
 
