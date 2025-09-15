@@ -65,6 +65,7 @@ Explore interactive dashboards showing:
 | `Python`      | Pandas, NumPy, Matplotlib              |
 | `Tableau`     | Interactive dashboards, storytelling   |
 | `Excel`       | Initial review, calculations           |
+| 🆕`KNIME`    | Clustering, forecasting, scenarios, GIS           |
 
 ---
 
@@ -112,6 +113,27 @@ healthcare-drug-use-analytics/
 - **Dashboard 2**: Demographics & drug types (opioids, cannabis, stimulants, etc.)  
 - **Dashboard 3**: Socioeconomic and rural/urban disparities  
 - **Dashboard 4**: Facility-specific usage concentration
+
+---
+
+## 🆕 KNIME Extension: Advanced Analytics, Simulation & GIS
+
+To move beyond descriptive Tableau dashboards, I extended the project in **KNIME** (no-code analytics platform).  
+
+### 🔹 Advanced Analytics Layer
+- **K-Means Clustering** – segmented states into:  
+  - 🟠 Moderate Burden, Lower-Income  
+  - 🔴 High-Income, High-Burden  
+  - 🟢 Stable States with Lower Burden  
+- **Time Series Forecasting (SARIMA)** – projected 12 months of future drug-use cases, revealing seasonal spikes 📈🌤️🚀  
+
+### 🔹 Scenario Simulation
+- Developed **What-If models** with workflow variables.  
+- Example: *+5% population growth & –10% prescription regulation* → overall cases ↓ but ED reliance ↑ ⚠️  
+
+### 🔹 Geospatial Mapping
+- Used **KNIME GIS Extensions** to build choropleth maps.  
+- Hotspots aligned with poverty-heavy regions 🗺️🏚️, guiding targeted resource allocation 🎯    
 
 ---
 
